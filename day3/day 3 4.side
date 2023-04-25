@@ -1,0 +1,166 @@
+{
+  "id": "6d4d4e1b-c09b-4da0-bff1-b4e0c85b8b4a",
+  "version": "2.0",
+  "name": "day 3 1",
+  "url": "https://demo.opencart.com",
+  "tests": [{
+    "id": "80631191-df13-4573-bc71-9842a28f17d0",
+    "name": "ex 1",
+    "commands": [{
+      "id": "04836375-b390-4f9b-9552-cffdf52f983c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9aa00dc-f140-4681-af04-e7b237f6d072",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x880",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31e7d52b-317e-42d0-9e4c-c27813d6c279",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col:nth-child(1) > form .description",
+      "targets": [
+        ["css=.col:nth-child(1) > form .description", "css:finder"],
+        ["xpath=//div[@id='content']/div[2]/div/form/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52016ccf-6860-4228-94bd-d04ace789594",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Desktops",
+      "targets": [
+        ["linkText=Desktops", "linkText"],
+        ["css=.show:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Desktops')]", "xpath:link"],
+        ["xpath=//div[@id='narbar-menu']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://demo.opencart.com/index.php?route=product/category&language=en-gb&path=20')]", "xpath:href"],
+        ["xpath=//nav/div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Desktops')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c6c8ed2-f1ac-4b1c-9753-136d366b2259",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mac (1)",
+      "targets": [
+        ["linkText=Mac (1)", "linkText"],
+        ["css=.show li:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Mac (1)')]", "xpath:link"],
+        ["xpath=//div[@id='narbar-menu']/ul/li/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://demo.opencart.com/index.php?route=product/category&language=en-gb&path=20_27')]", "xpath:href"],
+        ["xpath=//div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mac (1)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "af5764e6-6e2d-4dc0-b802-f48226bbd33b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.button-group > button:nth-child(2)",
+      "targets": [
+        ["css=.button-group > button:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='product-list']/div/form/div/div[2]/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24b028b1-b029-4a30-ac1d-733ea47031dd",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.button-group > button:nth-child(2)",
+      "targets": [
+        ["css=.button-group > button:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='product-list']/div/form/div/div[2]/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e7387002-eb8d-494b-b1ae-3e2920198e40",
+    "name": "ex4",
+    "commands": [{
+      "id": "e982a09b-ddb4-4264-ac99-4d9ec4440bcb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "12057842-408c-4a7a-80c6-ab880482a77e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x880",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84d3ef11-2d37-4ab7-b612-551a44a64f5a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Phones & PDAs",
+      "targets": [
+        ["linkText=Phones & PDAs", "linkText"],
+        ["css=.nav-item:nth-child(6) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Phones & PDAs')]", "xpath:link"],
+        ["xpath=//div[@id='narbar-menu']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://demo.opencart.com/index.php?route=product/category&language=en-gb&path=24')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Phones & PDAs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b416705d-8fc4-4eb1-82b6-1c1231a9d229",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col:nth-child(1) .img-fluid",
+      "targets": [
+        ["css=.col:nth-child(1) .img-fluid", "css:finder"],
+        ["xpath=//img[@alt='HTC Touch HD']", "xpath:img"],
+        ["xpath=//div[@id='product-list']/div/form/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//form/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1908df28-7221-4a8f-aa50-e26484453ffc",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-cart",
+      "targets": [
+        ["id=button-cart", "id"],
+        ["css=#button-cart", "css:finder"],
+        ["xpath=//button[@id='button-cart']", "xpath:attributes"],
+        ["xpath=//form[@id='form-product']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "67a6def9-909e-4726-b9c2-2e51b9e61e30",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=alert",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "66a31d52-d693-4ba9-b1b9-8a7bbca50b54",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["80631191-df13-4573-bc71-9842a28f17d0"]
+  }],
+  "urls": ["https://demo.opencart.com/"],
+  "plugins": []
+}
